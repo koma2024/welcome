@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import one from './one'
+import Hello from './Hello';
+import Bg from './Bg';
+
+
 function App() {
   return (
     <div className="App">
-<marquee>     <h1 style={{color:"green"}}>welcome to my first page </h1></marquee>
-  <one />
+    <h1 style={{color:"green"}}>welcome to my first page </h1>
+<Hello />
+<Bg />
     </div>
   );
 }
